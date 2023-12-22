@@ -1,0 +1,55 @@
+footer{
+    background: linear-gradient(to right, #081b29, #0ef);
+    color: #fff;
+    padding: 20px 30px;
+}
+
+footer img{
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #0ef;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;    
+}
+
+form button .fa-solid{
+    color: #fff;
+}
+
+form input{
+    border: none;
+    background: transparent;
+    outline: none;
+    
+}
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #215a83;
+    margin-right: 10px;
+    cursor: pointer;
+}
+

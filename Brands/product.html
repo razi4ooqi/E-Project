@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <!-- extarnal css -->
+  <!-- <link rel="stylesheet" href="../css/navbar.css"> -->
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/product.css ">
+  <!-- Favicon -->
+  <link rel="icon" href="../images/O.png">
+  <!-- extarnal css -->
+  <img src="" alt="">
+  <!-------------------------------------- bootstraplink ------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-------------------------------------- bootstraplink ------------------------------->
+  <!----------------------------------------- font awesome ----------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!----------------------------------------- font awesome ----------------------------------------->
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-5" href="#"><img src="../images/O.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-2 mb-lg-0 ms-md-5">
+          <li class="nav-item">
+            <a class="nav-link me-3" aria-current="page" href="../index.html">
+              <h5>Home</h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <h5>Brands</h5>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="all-modern.html">All Modern</a></li>
+              <li><a class="dropdown-item" href="diamond.html">Diamond</a></li>
+              <li><a class="dropdown-item" href="flexsteel.html">Flexsteel</a></li>
+              <li><a class="dropdown-item" href="ikea.html">IKEA</a></li>
+              <li><a class="dropdown-item" href="lazboy.html">La-Z-Boy</a></li>
+              <li><a class="dropdown-item" href="parker-knoll.html">Parker Knoll</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <h5>Categories</h5>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../categories/cornersofa.html">Corner Sofas</a></li>
+              <li><a class="dropdown-item" href="../categories/u-shapesofa.html">U-shpae Sofas</a></li>
+              <li><a class="dropdown-item" href="../categories/sofasets.html">Sofa Sets</a></li>
+              <li><a class="dropdown-item" href="../categories/sofabeds.html">Sofa Beds</a></li>
+              <li><a class="dropdown-item" href="../categories/3seatersofas.html">3 Seater Sofas</a></li>
+              <li><a class="dropdown-item" href="../categories/2seatersofas.html">2 Seater Sofas</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../compare/compare.html">
+              <h5>Comparison</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../about-us/aboutus.html">
+              <h5>About</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../contact/contact.html">
+              <h5>Contact</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../loginsignup/log-sign.html">
+              <h5><i class="fa-regular fa-user"></i></h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!----------------------------------- Product Detail -------------------------------------------->
+
+  <div class="container mt-4">
+    <div class="row">
+      <!-- product -->
+      <div class="col-lg-6">
+        <img src="" class="product" alt="" id="productImg">
+      </div>
+      <!-- product -->
+      <!-- details -->
+
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="text-center">
+          <div class=" product_details">
+            <h1 id="name" class="mb-3">product name</h1>
+            <h6 id="details" class="mb-5">details</h6>
+            <a href="Oxford Sofas.docx" class="btn btn-info">Download Product Details</a>
+            <h2 id="price" class="mt-5"> $</h2>
+          </div>
+          <div class="text-center fs-4 discription write">
+            <form action="#">
+              <label for="quantity" class="mb-5">Quantity:</label>
+              <input type="number" id="quantity">
+          </div>
+
+          <div class="d-flex justify-content-around">
+            <a href="#" class="btn btn-info">
+              <div class="text fw-bold btn">Add to cart</div>
+            </a>
+            <a href="#" class="btn btn-info">
+              <div class="text fw-bold btn">Buy Now</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- details -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class="mt-5">
+    <div class="containe-fluid mb-5">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="../images/O.png" alt="">
+          <p>With a curated selection of leading brands, we offer a range of styles, fabrics, and designs to suit your
+            taste. Experience the blend of comfort and elegance by visiting Oxford Sofa today.</p>
+        </div>
+        <div class="col-md-3 ps-5 mt-4">
+          <h3 class="mb-5 mb-sm-3">Address</h3>
+          <p class="mt-4">123 Elm Street
+            Furniture Store
+            N. Karachi
+            Karachi, Sindh</p>
+          <p class="email-id">oxford-sofa@outlook.com</p>
+          <h5>+92 - 300 4209211</h5>
+        </div>
+        <div class="col-md-3 ps-5 mt-2 mt-sm-4">
+          <h3>Links</h3>
+          <div class="links mt-3">
+            <a href="../index.html">Home</a>
+            <a href="../Brands/all-modern.html">Brands</a>
+            <a href="../categories/2seatersofas.html">Categories</a>
+            <a href="../compare/compare.html">Comparison</a>
+            <a href="../about-us/aboutus.html">About</a>
+            <a href="../contact/contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-3 ps-sm-0 mt-sm-3">
+          <h3 class="mt-2 mb-5 ps-5 mb-sm-3">Newsletter</h3>
+          <form class="ps-2 mt-5">
+            <i class="fa-regular fa-envelope fa-lg"></i>
+            <input type="email" placeholder="Enter Your Email" required>
+            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+          <div class="social-icons mt-5">
+            <a href="https://web.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">Oxford Sofa © 2023 - All Rights Reserved</p>
+  </footer>
+
+
+  <script src="./products.js"></script>
+  <!-------------------------------------- bootstraplink ------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-------------------------------------- bootstraplink ------------------------------->
+</body>
+
+</html>

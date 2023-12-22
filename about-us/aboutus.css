@@ -1,0 +1,134 @@
+hr{
+    color: #0ef;
+}
+.inventory{
+    margin-top: 3rem;
+}
+.inventory h1{
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inventory p{
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.connection{
+    margin-top: 1rem;
+}
+.connection h1{
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.connection p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.talking h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.talking p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact i{
+    font-size: 1.5rem;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.team .heading h1{
+    font-weight: 900;
+}
+.team .heading h3{
+    font-weight: 900;
+}
+.team .card{
+    border: 2px solid black;
+}
+.team .card:hover{
+    transform: scaleY(1.1);
+    cursor: pointer;
+}
+.team .card img{
+    border: 2px solid black;
+    height: 250px;
+}
+.team .card img:hover{
+   transform: scaleX(1);
+}
+.team .card h5{
+    font-weight: 900;
+    color: black;
+    font-size: 1.2rem;
+}
+.team .card p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+ /*-------------------------------scroll up---------------------------------------*/
+ #scrollUp {
+    bottom: 20px;
+    right: 20px;  
+    background-image: url('../images/top.png');
+    width: 38px;
+    height: 38px;
+}
+
+/*-------------------------------------scroll-bar---------------------------------------*/
+body {
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #0ef;
+    --sb-size: 12px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+    
+    }
+    /*----------------------------scroll-bar-end-------------------------------------------*/

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------EXTERNAL CSS LINK:-------------------->
+    
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/log-sign.css">
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+          <!-- Favicon -->
+  <link rel="icon" href="../images/O.png">
+
+
+    <!--------FONT AWESOME CDN LINK:-------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!---------------------------------------------sweet alert---------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert2.all.min.js"></script>
+<!----------------------------------------------sweet alert----------------------------------->
+    <title>Register</title>
+</head>
+
+<body style="background-color: #081b29;">
+
+    <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../images/O.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-3 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link ms-5" aria-current="page" href="../index.html">
+              <h5>Home</h5>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <h5>Brands</h5>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Brands/all-modern.html">All Modern</a></li>
+              <li><a class="dropdown-item" href="../Brands/diamond.html">Diamond</a></li>
+              <li><a class="dropdown-item" href="../Brands/flexsteel.html">Flexsteel</a></li>
+              <li><a class="dropdown-item" href="../Brands/ikea.html">IKEA</a></li>
+              <li><a class="dropdown-item" href="../Brands/lazboy.html">La-Z-Boy</a></li>
+              <li><a class="dropdown-item" href="../Brands/parker-knoll.html">Parker Knoll</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <h5>Categories</h5>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../cornersofa.html">Corner Sofas</a></li>
+              <li><a class="dropdown-item" href="../u-shapesofa.html">U-shpae Sofas</a></li>
+              <li><a class="dropdown-item" href="../sofabeds.html">Sofa Beds</a></li>
+              <li><a class="dropdown-item" href="../3seatersofas.html">3 Seater Sofas</a></li>
+              <li><a class="dropdown-item" href="../2seatersofas.html">2 Seater Sofas</a></li>
+            </ul>
+          </li>   
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">
+              <h5>Comparison</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../about-us/aboutus.html">
+              <h5>About</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="../contact/contact.html">
+              <h5>Contact</h5>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link active" href="#">
+              <h5><i class="fa-regular fa-user"></i></h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- login / signup -->
+
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+        <div class="form-box login">
+            <h2 class="animation" style="--i:0; --j:21">Login</h2>
+            <form action="../compare/compare.html">
+                <div class="input-box animation" style="--i:1; --j:22">
+                  <input id="email" type="email" >
+                  <label for="">Email</label>
+                  <i class="fa-solid fa-envelope"></i>
+              </div>
+                <div class="input-box animation" style="--i:2; --j:23">
+                    <input id="password" type="password" >
+                    <label for="">Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" onclick="login()" class="btn animation" style="--i:3; --j:24">Login</button>
+                <div class="log-reg-link animation" style="--i:4; --j:25">
+                    <p>Don't have an account?<a href="#" class="register-link">
+                            Sign Up
+                        </a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0; --j:20;">Welcome Back :)</h2>
+            <p class="animation" style="--i:1; --j:21;">Please login your account and re-start your stop survey.</p>
+        </div>
+        <!-- register work -->
+        <div class="form-box register">
+            <h2 class="animation" style="--i:17; --j:0;">Sign-Up</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:18; --j:1;">
+                    <input id="sname" type="text" >
+                    <label for="">Username</label>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box animation" style="--i:19; --j:2;">
+                    <input id="semail" type="email" >
+                    <label for="">Email</label>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input id="spassword" type="password" >
+                    <label for="">Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" onclick="signin()" class="btn animation" style="--i:21; --j:4;">Sign Up</button>
+                <div class="log-reg-link animation" style="--i:22; --j:5;">
+                    <p>Already have an account?<a href="#" class="login-link">
+                            Login
+                        </a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text register">
+            <h2 class="animation" style="--i:17; --j:0;">Welcome To OXFORD SOFA'S Website:)</h2>
+            <p class="animation" style="--i:18; --j:1;">Please Sign up your account and start your survey.</p>
+        </div>
+    </div>
+
+      <script>
+        function signin() {
+            var name = document.getElementById("sname").value
+
+            var email = document.getElementById("semail").value
+            var password = document.getElementById("spassword").value
+            if (name == "" || email == "" || password == "") {
+                var span = document.getElementById("error")
+
+                Swal.fire({
+                    position: 'center',
+                    icon: 'warning',
+                    title: 'please fill all fields',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+            } else {
+                localStorage.setItem("name", name)
+                localStorage.setItem("email", email)
+                localStorage.setItem("password", password)
+    
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'account han been created',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+
+            }
+        }
+
+        function removetext() {
+            var span = document.getElementById("error")
+            span.style.display = "none"
+
+        }
+
+
+        function login() {
+            var email = document.getElementById("email").value
+            var password = document.getElementById("password").value
+            console.log(email)
+            var user_email = localStorage.getItem("email")
+            var user_password = localStorage.getItem("password")
+            console.log(user_email)
+            if (user_email == email && user_password == password) {
+
+
+
+                
+                sessionStorage.setItem("user", "true");
+
+                location.href = "../compare/compare.html"
+            } else if (email === "" || password === "") {
+        
+                Swal.fire({
+                    position: 'center',
+                    icon: 'warning',
+                    title: 'please fill all fields',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+
+            } else {
+            
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'incorrect email or password.',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+            }
+
+        }
+      </script>
+
+<!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+    <!---------------EXTERNAL JS---------------->
+    <script src="../js/log-sign.js"></script>
+</body>
+
+</html>

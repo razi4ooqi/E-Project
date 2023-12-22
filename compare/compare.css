@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*---------------------------------navbar-sectio--------------------------------------*/
+  .navbar {
+    font-family:  serif;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: #0ef !important;
+  
+  }
+  
+  .nav-link a {
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  .dropdown-item:hover{ 
+    color: #0ef !important;
+  
+  }
+  .dropdown-item{
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .navbar {
+    height: auto;
+  
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+    width: fit-content;
+  }
+  
+  /*--------------------------------navbar end-------------------------------------------*/
+  
+  /*------------------------------------footer start-------------------------------------*/
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer img {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  .list-unstyled a:hover {
+    color: #0ef !important;
+  
+  }
+    
+  /*-------------------------------footer end--------------------------------------------*/
+  
+  /*-------------------------------scroll up start---------------------------------------*/
+  #scrollUp {
+    bottom: 20px;
+    right: 20px;  
+    background-image: url('../images/top.png');
+    width: 38px;
+    height: 38px;
+}
+
+  
+/*-------------------------------------scroll up end-------------------------------------*/
+  /*----------------------------table-section--------------------------------------------*/
+.table{
+  font-family:  serif;
+  font-weight: 600;
+  font-size: 18px;  
+}  
+h1{
+  font-family:  serif; 
+
+}
+
+h1:hover{
+  color: #0ef !important;
+}
+.img-background {
+  background: url(../images/sofacarousel2.jpg) center/cover no-repeat;
+  height: 450px;
+  width: 100%;
+}
+/*-----------------------table-section-end----------------------------------------------*/
+/*-------------------------------------scroll-bar---------------------------------------*/
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #0ef;
+  --sb-size: 12px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+  
+  }
+  /*----------------------------scroll-bar-end-------------------------------------------*/
